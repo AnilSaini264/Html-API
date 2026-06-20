@@ -19,6 +19,27 @@
 .Header li{
     list-style: none;
 }
+.hed1{
+    display: flex;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+img:hover{
+    height: 42px;
+    width:  42px;
+}
+.shopName{
+      padding-left: 10px;
+}
+.orderBtn{
+   background-color: pink;
+   height: 35px;
+   width: 80px;
+}
 .body{
     background-color: rgb(53, 183, 197);
     padding: 60px;
