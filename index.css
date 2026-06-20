@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .Header{
   
     background-color: rgb(74, 101, 101);
@@ -18,6 +17,9 @@
 }
 .Header li{
     list-style: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 .hed1{
     display: flex;
@@ -34,17 +36,68 @@ img:hover{
 }
 .shopName{
       padding-left: 10px;
+      font-style:italic ;
+      color: rgb(132, 188, 194);
 }
 .orderBtn{
-   background-color: pink;
+   background-color: rgb(76, 122, 138);
+   display: flex;
+   justify-content: center;
+   align-items: center;
    height: 35px;
    width: 80px;
+   border-radius: 18px;
 }
 .body{
-    background-color: rgb(53, 183, 197);
-    padding: 60px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    background-color: rgb(68, 229, 235);
+
     height: 400px;
+    background-image: url(images/bg.jpg);
+    /* object-fit: contain; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+    
+
+}
+button{
+    background-color: rgb(249, 242, 242);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 35px;
+   width: 90px;
+   border: 0cap;
+   border-radius: 18px;
+ 
+}
+.body_btn{
+   
+    display: flex;
+    /* padding: 70px; */
+    justify-content: space-between;
+    width: 200px;
+  
+
+}
+.body_content{
+    width: 350px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.body_text h1{
+       width: 200px;
+       color: rgb(219, 25, 135);
+       font-style: oblique;
+       font-size: 40px;
+    
+}
+.body_text p{
+    color: rgb(154, 37, 130);
+    
+}
+button:hover{
+    background-color: rgb(255, 64, 226);
+    animation-duration:0.3s ;
 }
