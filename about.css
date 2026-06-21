@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about_s1 {
+    display: flex;
+  background: #edcee8;
+  height: 600px;
+  text-align: center;
+  justify-content: center;
+
+}
+.about_s1 div{
+    /* width: 500px; */
+    padding-top: 50px;
+}
+.about_s1 h1{
+   padding-bottom: 15px;
+   font-size: 40px;
+   font-style: italic;
+}
+.about_s1 p{
+    font-size: 16px;
+}
+.about_img{
+    background-image: url(images/shop.jpg);
+    width: 900px;
+    height: 550px;
+}
