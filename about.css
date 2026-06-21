@@ -3,29 +3,192 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #edcee8;
+    color: #3d1738;
+    /* justify-content: center; */
+}
 
 .about_s1 {
     display: flex;
-  background: #edcee8;
-  height: 600px;
-  text-align: center;
-  justify-content: center;
-
+    min-height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
 }
 .about_s1 div{
-    /* width: 500px; */
-    padding-top: 50px;
+    max-width: 1200px;
 }
 .about_s1 h1{
    padding-bottom: 15px;
-   font-size: 40px;
+   font-size: 70px;
    font-style: italic;
 }
 .about_s1 p{
-    font-size: 16px;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about_s2{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 .about_img{
-    background-image: url(images/shop.jpg);
-    width: 900px;
-    height: 550px;
+    /* text-align: center; */
+    justify-content: center;
 }
+.about_img div{
+    background-image: url(images/shop.jpg);
+    width: 650px;
+    min-width: 320px;
+    height: 450px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detail h1{
+    font-size: 45px;
+}
+.detail p{
+    padding-top: 20px;
+}
+.about_detail{
+    max-width: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 80px;
+}
+.ranking{
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about_ranking{
+    background-color: #d3a8cc;
+    width: 120px;
+    min-height: 80px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.about_s3{
+    background-color : #ecb3e2;
+    min-height: 500px;
+    gap: 30px;
+    padding: 90px 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.s3_box{
+    background-color: white;
+    width: 700px;
+    min-height: 300px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.s3_box p {
+    padding-top: 20px;
+    max-width: 500px;
+    font-size: 20px;
+}
+.s3_box h2{
+    padding-top: 10px;
+    font-size: 40px;
+}
+.div_logo{
+    padding-bottom: 10px;
+    width: 60px;
+    height: 45px;
+    border-radius: 25%;
+    background-color: rgb(214, 48, 239);
+}
+.about_s4 h1{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 70px;
+}
+.box{
+    gap: 30px;
+    padding-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.s4_box{
+    background-color: white;
+    width: 400px;
+    min-height: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px rgb(177, 161, 161) solid;
+}
+.s4_box p {
+    padding-top: 20px;
+    max-width: 250px;
+    font-size: 20px;
+}
+.s4_box h3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.about_s5{
+    background-color : #f0b3e6;
+    padding: 1px 20px 80px;
+    margin-top: 70px;
+}
+.about_s5 h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 80px;
+}
+.about_s5 p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.chef_cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.chef_box{
+    width: 360px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.chef_img{
+    height: 420px;
+    border-radius: 18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chef_box h3{
+    font-size: 30px;
+    padding-top: 18px;
+}
+.chef_box p{
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+
