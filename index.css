@@ -177,3 +177,487 @@ button:hover{
     background-color: rgb(2, 15, 255);
     
 }
+
+/* ***************about css&**************** */
+.body_about{
+  background:  rgb(239, 199, 239);
+}
+.about_s1 {
+    display: flex;
+    min-height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+.about_s1 div{
+    max-width: 1200px;
+}
+.about_s1 h1{
+   padding-bottom: 15px;
+   font-size: 70px;
+   font-style: italic;
+}
+.about_s1 p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about_s2{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.about_img{
+    /* text-align: center; */
+    justify-content: center;
+}
+.about_img div{
+    background-image: url(images/shop.jpg);
+    width: 650px;
+    min-width: 320px;
+    height: 450px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detail h1{
+    font-size: 45px;
+}
+.detail p{
+    padding-top: 20px;
+}
+.about_detail{
+    max-width: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 80px;
+}
+.ranking{
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about_ranking{
+    background-color: #d3a8cc;
+    width: 120px;
+    min-height: 80px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.about_s3{
+    background-color : #ecb3e2;
+    min-height: 500px;
+    gap: 30px;
+    padding: 90px 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.s3_box{
+    background-color: white;
+    width: 700px;
+    min-height: 300px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.s3_box p {
+    padding-top: 20px;
+    max-width: 500px;
+    font-size: 20px;
+}
+.s3_box h2{
+    padding-top: 10px;
+    font-size: 40px;
+}
+.div_logo{
+    padding-bottom: 10px;
+    width: 60px;
+    height: 45px;
+    border-radius: 25%;
+    background-color: rgb(214, 48, 239);
+}
+.about_s4 h1{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 70px;
+}
+.boxx{
+    gap: 30px;
+    padding-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.s4_box{
+    background-color: white;
+    width: 400px;
+    min-height: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px rgb(177, 161, 161) solid;
+}
+.s4_box p {
+    padding-top: 20px;
+    max-width: 250px;
+    font-size: 20px;
+}
+.s4_box h3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.about_s5{
+    background-color : #f0b3e6;
+    padding: 1px 20px 80px;
+    margin-top: 70px;
+}
+.about_s5 h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 80px;
+}
+.about_s5 p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.chef_cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.chef_box{
+    width: 360px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.chef_img{
+    height: 420px;
+    border-radius: 18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chef_box h3{
+    font-size: 30px;
+    padding-top: 18px;
+}
+.chef_box p{
+    font-size: 20px;
+    padding-top: 8px;
+}
+.food{
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about_s6 h1{
+  justify-content: center;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+.food_img{
+    margin-top: 30px;
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 20px 60px;
+}
+.about_s6{
+    min-height: 800px;
+}
+
+footer{
+    background-color: #5a4155;
+    color: rgb(233, 220, 220);
+    margin-top: 40px;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    gap: 35px;
+    padding: 55px 25px 35px;
+    align-items: start;
+}
+.footer_box{
+    text-align: left;
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f5dff0;
+}
+footer h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+footer h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+footer p{
+    font-size: 17px;
+    line-height: 30px;
+    color: #f5dff0;
+}
+footer a{
+    display: block;
+    color: #f5dff0;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 30px;
+}
+.footer_end{
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #4c3548;
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.footer_end p{
+    font-size: 15px;
+}
+
+/* **********sevices css ******** */
+.body_service{
+  background:  rgb(239, 199, 239);
+
+}
+
+.service_head{
+    background: #b36fa7;
+     background-color: rgb(239, 171, 240);
+    padding: 50px 20px 25px;
+    text-align: center;
+    height: 250px;
+}
+
+.heading h1{
+    color: rgb(219, 25, 135);
+    font-style: oblique;
+    font-size: 70px;
+}
+
+.heading p{
+    color: rgb(154, 37, 130);
+    font-size: 20px;
+    max-width: 700px;
+    margin: 15px auto 0;
+}
+
+.services{
+    background: #edcee8;
+    padding: 30px 80px;
+}
+
+.service_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service_box{
+    background: #f6b8fe;
+    width: 450px;
+    min-height: 450px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.service_img{
+    background-image: url(images/cake1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.service_box h2{
+    padding: 20px 15px 0;
+    font-size: 30px;
+    color: #3d1738;
+}
+
+.service_box p{
+    padding: 15px 30px 25px;
+    font-size: 18px;
+    color: rgb(69, 5, 66);
+    line-height: 28px;
+}
+
+.order{
+    background-color: rgb(254, 210, 252);
+    padding: 20px 20px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.order_box{
+    width: 100%;
+    max-width: 1050px;
+    background: #cf93c3;
+    color: rgb(247, 238, 238);
+    text-align: center;
+    padding: 55px 30px;
+    border-radius: 20px;
+}
+
+.order_box h2{
+    font-size: 42px;
+    font-style: italic;
+}
+
+.order_box p{
+    font-size: 20px;
+    max-width: 650px;
+    margin: 15px auto 30px;
+    line-height: 30px;
+}
+
+.order__btn{
+    width: fit-content;
+    min-width: 220px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    background: rgb(242, 206, 238);
+    color: rgb(132, 18, 102);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.order__btn h3{
+    font-size: 20px;
+}
+
+.order__btn:hover{
+    background: rgb(207, 123, 209);
+    color: white;
+}
+
+/* ************contact css ****** */
+.contact_body{
+    background: #edcee8;
+    color: #3d1738;
+}
+
+.contact_head{
+    text-align: center;
+    padding: 60px 20px 35px;
+}
+
+.contact_head h1{
+    color: rgb(33, 30, 32);
+    font-size: 65px;
+    font-style: oblique;
+}
+
+.contact_head p{
+    max-width: 700px;
+    margin: 15px auto 0;
+    font-size: 20px;
+    color: rgb(52, 43, 50);
+    line-height: 30px;
+}
+
+.contact_section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 25px 80px;
+}
+
+.contact_info{
+    width: 430px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+}
+
+.contact_card{
+    background: #d8a0e0;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+.contact_card h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contact_card p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contact_form{
+    width: 560px;
+    background: #f7e7f4;
+    padding: 35px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact_form h2{
+    font-size: 34px;
+    color: rgb(32, 28, 31);
+}
+
+.contact_form input,
+.contact_form textarea{
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d3a8cc;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact_form textarea{
+    min-height: 130px;
+    resize: vertical;
+}
+
+.contact_form button{
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 18px;
+    background: rgb(207, 123, 209);
+    color: white;
+    font-size: 16px;
+
+}
