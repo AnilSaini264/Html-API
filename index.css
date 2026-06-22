@@ -149,7 +149,7 @@ button:hover{
 
 }
 .box_image{
-    background-image: url(images/cake1.jfif);
+    /* background-image: url(images/cake1.jfif); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ footer a{
 }
 
 .service_img{
-    background-image: url(images/cake1.jfif);
+    /* background-image: url(images/cake1.jfif); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
