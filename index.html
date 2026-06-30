@@ -237,5 +237,26 @@
            <p>© 2026 Sweet Delights Bakery. Baked with love.</p>
         </div>
     </footer>
+    <div>
+        <h1>Student Data</h1>
+        <button onclick="fetchStudentData()">Fetch Student Data</button>
+        <div id="studentDataContainer">
+            This your data
+        </div>
+        <script>
+            function featchStudentData(){
+                fetch(("https://api.pexels.com/v1/search?query=bakery"))
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("studentDataContainer").innerHTML = `
+                        <h2>Student Data:${}</h2>
+
+                    `;
+                })
+              
+            }
+        </script>
+
+    </div>
 </body>
 </html>
